@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "animation_and_more",
+  "version": "${version}",
+  "name": "Animation & More",
+  "description": "Sulfur Cube sports props (name a cube Football, Basketball...) plus original third-person player animations.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "client": ["dev.animationmore.client.AnimationMoreClient"] },
+  "mixins": [ { "config": "animation_and_more.mixins.json", "environment": "client" } ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

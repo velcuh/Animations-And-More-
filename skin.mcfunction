@@ -1,0 +1,1 @@
+$execute as @e[type=minecraft:item_display,tag=cs_view,distance=..8] if score @s cs_id = #cur cs_id run data modify entity @s item set value {id:"minecraft:stick",count:1,components:{"minecraft:item_model":"animation_and_more:$(id)"}}
